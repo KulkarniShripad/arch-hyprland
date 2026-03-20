@@ -1,0 +1,3 @@
+2026-02-04 21:50:40.438 [info] Started initializing default profile extensions in extensions installation folder. file:///home/shripad/.vscode-oss/extensions
+2026-02-04 21:50:40.510 [warning] Failed to create default profile extensions manifest in extensions installation folder. file:///home/shripad/.vscode-oss/extensions Unable to create file 'vscode-userdata:/home/shripad/.vscode-oss/extensions/extensions.json' that already exists when overwrite flag is not set
+2026-02-04 21:50:40.510 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/shripad/.vscode-oss/extensions

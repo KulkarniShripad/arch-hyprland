@@ -1,0 +1,15 @@
+2026-02-05 22:46:55 INFO logger.py:126 Log level: INFO
+2026-02-05 22:46:55 INFO main.py:270 GNS3 GUI version 3.0.6
+2026-02-05 22:46:55 INFO main.py:271 Copyright (c) 2007-2026 GNS3 Technologies Inc.
+2026-02-05 22:46:55 INFO main.py:272 Application started with /usr/sbin/gns3
+2026-02-05 22:46:58 INFO http_client.py:561 Authenticated with controller localhost on port 3080 
+2026-02-05 22:46:58 INFO controller.py:456 Listening for controller notifications on ws://localhost:3080/v3/notifications/ws
+2026-02-05 22:47:09 INFO project.py:666 Listening for project notifications on ws://localhost:3080/v3/projects/236c0f30-0b1f-4102-ac56-1ea5b6671bb2/notifications/ws
+2026-02-05 22:47:19 WARNING __init__.py:407 Can't create the link the port is not free
+2026-02-05 22:48:17 WARNING __init__.py:1162 This node must be started before a console can be opened
+2026-02-05 22:48:32 ERROR http_client.py:800 No path to a VPCS executable has been set
+2026-02-05 22:48:36 ERROR telnet_console.py:182 Could not start Telnet console with command 'xterm -T "R1" -e "telnet localhost 5006"': [Errno 2] No such file or directory: 'xterm'
+2026-02-05 22:48:56 ERROR node.py:268 error while starting PC4: No path to a VPCS executable has been set
+2026-02-05 22:48:56 CRITICAL __init__.py:1672 No path to a VPCS executable has been set
+2026-02-05 22:49:36 ERROR http_client.py:800 No path to a VPCS executable has been set
+2026-02-05 22:52:04 ERROR telnet_console.py:182 Could not start Telnet console with command 'xterm -T "PC4" -e "telnet localhost 5009"': [Errno 2] No such file or directory: 'xterm'

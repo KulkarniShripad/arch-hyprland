@@ -1,0 +1,18 @@
+[Unit]
+Description=Hyprland Wayland Session
+After=graphical.target
+
+[Service]
+Type=simple
+Environment=WAYLAND_DISPLAY=wayland-0
+TTYPath=/dev/tty1
+ExecStart=/usr/bin/start-hyprland
+Restart=always
+RestartSec=2
+
+# When the service stops, run hyprlock
+ExecStopPost=/usr/bin/hyprlock
+
+[Install]
+WantedBy=default.target
+

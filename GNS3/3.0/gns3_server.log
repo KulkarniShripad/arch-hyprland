@@ -1,0 +1,271 @@
+2026-02-05 22:46:56 WARNING config.py:250 No configuration file could be found or read
+2026-02-05 22:46:56 INFO server.py:234 GNS3 server version 3.0.6
+2026-02-05 22:46:56 INFO server.py:236 Copyright (c) 2007-2026 GNS3 Technologies Inc.
+2026-02-05 22:46:56 WARNING server.py:247 Compute authentication is enabled with username 'gns3' and a randomly generated password. Please set a password in the config file if this compute is to be used by an external controller
+2026-02-05 22:46:56 INFO server.py:257 Running with Python 3.14.2 and has PID 72503
+2026-02-05 22:46:56 INFO server.py:87 Current locale is en_US.UTF-8
+2026-02-05 22:46:56 INFO server.py:275 Using system certificate store for SSL connections
+2026-02-05 22:46:56 INFO server.py:288 Starting server on 0.0.0.0:3080
+2026-02-05 22:46:58 INFO server.py:84 Started server process [72503]
+2026-02-05 22:46:58 INFO on.py:48 Waiting for application startup.
+2026-02-05 22:46:58 INFO migration.py:207 Context impl SQLiteImpl.
+2026-02-05 22:46:58 INFO migration.py:210 Will assume non-transactional DDL.
+2026-02-05 22:46:58 INFO tasks.py:88 Current database revision is None
+2026-02-05 22:46:58 INFO migration.py:207 Context impl SQLiteImpl.
+2026-02-05 22:46:58 INFO migration.py:210 Will assume non-transactional DDL.
+2026-02-05 22:46:58 INFO migration.py:618 Running stamp_revision  -> 9a5292aa4389
+2026-02-05 22:46:58 INFO __init__.py:71 Loading controller vars file "/home/shripad/.config/GNS3/3.0/gns3_controller.vars"
+2026-02-05 22:46:58 INFO __init__.py:75 Controller is starting
+2026-02-05 22:46:58 INFO __init__.py:355 Installing base configs in '/home/shripad/GNS3/configs'
+2026-02-05 22:46:58 INFO __init__.py:382 Installing custom symbols in '/home/shripad/GNS3/symbols'
+2026-02-05 22:46:58 INFO __init__.py:369 Installing built-in disks in '/home/shripad/GNS3/images/QEMU'
+2026-02-05 22:46:58 INFO __init__.py:273 IOU license check is disabled on the controller
+2026-02-05 22:46:58 INFO __init__.py:278 Comparing controller version 3.0.6 with config version 3.0.6
+2026-02-05 22:46:58 INFO __init__.py:286 Built-in appliances are installed in '/home/shripad/.local/share/GNS3/appliances'
+2026-02-05 22:46:58 INFO compute.py:74 Create compute local
+2026-02-05 22:46:58 INFO on.py:62 Application startup complete.
+2026-02-05 22:46:58 INFO server.py:216 Uvicorn running on http://0.0.0.0:3080 (Press CTRL+C to quit)
+2026-02-05 22:46:58 ERROR authentication.py:58 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2026-02-05 22:46:58 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2026-02-05 22:46:58 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2026-02-05 22:46:58 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2026-02-05 22:46:59 INFO websockets_impl.py:273 127.0.0.1:53750 - "WebSocket /v3/notifications/ws?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTc3MDM5ODIxOH0.k05Zr2f90PwwDf9NZuPvShCQR4zPZV7crFNd5lwseOA" [accepted]
+2026-02-05 22:46:59 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2026-02-05 22:46:59 INFO server.py:642 connection open
+2026-02-05 22:46:59 INFO controller.py:214 New client 127.0.0.1:53750 has connected to controller WebSocket
+2026-02-05 22:46:59 INFO compute.py:375 Connecting to compute 'local'
+2026-02-05 22:46:59 INFO websockets_impl.py:273 127.0.0.1:53764 - "WebSocket /v3/compute/notifications/ws" [accepted]
+2026-02-05 22:46:59 INFO notifications.py:43 New client 127.0.0.1:53764 has connected to compute WebSocket
+2026-02-05 22:46:59 INFO server.py:642 connection open
+2026-02-05 22:46:59 INFO compute.py:447 Connected to compute 'local' WebSocket 'http://127.0.0.1:3080/v3/compute/notifications/ws'
+2026-02-05 22:47:03 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2026-02-05 22:47:03 INFO images.py:163 Discovering images in '/home/shripad/GNS3/images/QEMU'
+2026-02-05 22:47:03 INFO images.py:163 Discovering images in '/home/shripad/GNS3/images/IOS'
+2026-02-05 22:47:03 INFO images.py:163 Discovering images in '/home/shripad/GNS3/images/IOU'
+2026-02-05 22:47:03 INFO tasks.py:231 Monitoring for new images in '/home/shripad/GNS3/images'
+2026-02-05 22:47:09 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2026-02-05 22:47:09 INFO project.py:78 Project 236c0f30-0b1f-4102-ac56-1ea5b6671bb2 with path '/home/shripad/GNS3/projects/236c0f30-0b1f-4102-ac56-1ea5b6671bb2' created
+2026-02-05 22:47:09 INFO base_node.py:323 VPCS: PC1 [a2a711e1-7a5d-4cf1-bf21-48beefb1cd5e] created
+2026-02-05 22:47:09 INFO base_node.py:323 VPCS: PC2 [6f339fdb-b4f6-4406-8e0e-c122cd4f17bb] created
+2026-02-05 22:47:09 INFO base_node.py:323 VPCS: PC3 [3c10254b-8104-4a53-958d-862d5127e22b] created
+2026-02-05 22:47:09 INFO __init__.py:336 Creating new hypervisor 127.0.0.1:38439 with working directory /home/shripad/GNS3/projects/236c0f30-0b1f-4102-ac56-1ea5b6671bb2/project-files/dynamips
+2026-02-05 22:47:09 INFO hypervisor.py:123 Starting Dynamips: ['/usr/sbin/dynamips', '-N1', '-l', 'dynamips_i1_log.txt', '-H', '127.0.0.1:38439', '--console-binding-addr', '0.0.0.0']
+2026-02-05 22:47:09 INFO hypervisor.py:125 Dynamips process logging to /home/shripad/GNS3/projects/236c0f30-0b1f-4102-ac56-1ea5b6671bb2/project-files/dynamips/dynamips_i1_stdout.txt
+2026-02-05 22:47:09 INFO hypervisor.py:130 Dynamips process started PID=72583
+2026-02-05 22:47:09 INFO __init__.py:338 Hypervisor 127.0.0.1:38439 has successfully started
+2026-02-05 22:47:09 INFO dynamips_hypervisor.py:93 Connected to Dynamips hypervisor on 127.0.0.1:38439 after 0.2633 seconds
+2026-02-05 22:47:09 INFO dynamips_hypervisor.py:98 Dynamips version 0.2.23 detected
+2026-02-05 22:47:09 INFO router.py:244 Router c2691 "R1" [0bb69b8c-c97f-4627-82ed-d8100418d8d8] has been created
+2026-02-05 22:47:09 INFO router.py:564 Router "R1" [0bb69b8c-c97f-4627-82ed-d8100418d8d8]: RAM updated from 128MB to 192MB
+2026-02-05 22:47:09 INFO router.py:592 Router "R1" [0bb69b8c-c97f-4627-82ed-d8100418d8d8]: NVRAM updated from 112KB to 256KB
+2026-02-05 22:47:09 INFO router.py:535 Router "R1" [0bb69b8c-c97f-4627-82ed-d8100418d8d8]: has a new IOS image set: "/home/shripad/GNS3/images/IOS/c2691-entservicesk9-mz.124-13b_2.image"
+2026-02-05 22:47:09 INFO router.py:939 Router "R1" [0bb69b8c-c97f-4627-82ed-d8100418d8d8]: disk0 updated from 16MB to 0MB
+2026-02-05 22:47:09 INFO router.py:990 Router "R1" [0bb69b8c-c97f-4627-82ed-d8100418d8d8]: auto delete disks enabled
+2026-02-05 22:47:09 INFO router.py:1093 Router "R1" [0bb69b8c-c97f-4627-82ed-d8100418d8d8]: MAC address updated from c001.1b87.0000 to c001.ee0d.0000
+2026-02-05 22:47:09 INFO __init__.py:336 Creating new hypervisor 127.0.0.1:59551 with working directory /home/shripad/GNS3/projects/236c0f30-0b1f-4102-ac56-1ea5b6671bb2/project-files/dynamips
+2026-02-05 22:47:09 INFO hypervisor.py:123 Starting Dynamips: ['/usr/sbin/dynamips', '-N1', '-l', 'dynamips_i2_log.txt', '-H', '127.0.0.1:59551', '--console-binding-addr', '0.0.0.0']
+2026-02-05 22:47:09 INFO hypervisor.py:125 Dynamips process logging to /home/shripad/GNS3/projects/236c0f30-0b1f-4102-ac56-1ea5b6671bb2/project-files/dynamips/dynamips_i2_stdout.txt
+2026-02-05 22:47:09 INFO hypervisor.py:130 Dynamips process started PID=72611
+2026-02-05 22:47:09 INFO __init__.py:338 Hypervisor 127.0.0.1:59551 has successfully started
+2026-02-05 22:47:09 INFO dynamips_hypervisor.py:93 Connected to Dynamips hypervisor on 127.0.0.1:59551 after 0.0107 seconds
+2026-02-05 22:47:09 INFO dynamips_hypervisor.py:98 Dynamips version 0.2.23 detected
+2026-02-05 22:47:09 INFO ethernet_switch.py:192 Ethernet switch "Switch1" [f6737aa4-0cb2-45db-896a-c0ce1dc9a0b4] has been created
+2026-02-05 22:47:09 INFO __init__.py:336 Creating new hypervisor 127.0.0.1:35111 with working directory /home/shripad/GNS3/projects/236c0f30-0b1f-4102-ac56-1ea5b6671bb2/project-files/dynamips
+2026-02-05 22:47:09 INFO hypervisor.py:123 Starting Dynamips: ['/usr/sbin/dynamips', '-N1', '-l', 'dynamips_i3_log.txt', '-H', '127.0.0.1:35111', '--console-binding-addr', '0.0.0.0']
+2026-02-05 22:47:09 INFO hypervisor.py:125 Dynamips process logging to /home/shripad/GNS3/projects/236c0f30-0b1f-4102-ac56-1ea5b6671bb2/project-files/dynamips/dynamips_i3_stdout.txt
+2026-02-05 22:47:09 INFO hypervisor.py:130 Dynamips process started PID=72639
+2026-02-05 22:47:09 INFO __init__.py:338 Hypervisor 127.0.0.1:35111 has successfully started
+2026-02-05 22:47:09 INFO dynamips_hypervisor.py:93 Connected to Dynamips hypervisor on 127.0.0.1:35111 after 0.0107 seconds
+2026-02-05 22:47:09 INFO dynamips_hypervisor.py:98 Dynamips version 0.2.23 detected
+2026-02-05 22:47:09 INFO ethernet_switch.py:192 Ethernet switch "Switch2" [cbd13e01-a5a1-4dbd-b017-0cc819f1d397] has been created
+2026-02-05 22:47:09 INFO base_node.py:323 VPCS: PC4 [0c163329-ba44-40a4-99b9-0f6417af805b] created
+2026-02-05 22:47:09 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2026-02-05 22:47:09 INFO websockets_impl.py:273 127.0.0.1:37042 - "WebSocket /v3/projects/236c0f30-0b1f-4102-ac56-1ea5b6671bb2/notifications/ws?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJhZG1pbiIsImV4cCI6MTc3MDM5ODIxOH0.k05Zr2f90PwwDf9NZuPvShCQR4zPZV7crFNd5lwseOA" [accepted]
+2026-02-05 22:47:09 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2026-02-05 22:47:09 INFO server.py:642 connection open
+2026-02-05 22:47:09 INFO projects.py:297 New client has connected to the notification stream for project ID '236c0f30-0b1f-4102-ac56-1ea5b6671bb2' (WebSocket method)
+2026-02-05 22:47:09 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2026-02-05 22:47:09 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2026-02-05 22:47:09 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2026-02-05 22:47:17 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2026-02-05 22:47:17 INFO nio_udp.py:76 NIO UDP udp-f1109d8b-bfbd-49dd-a69a-50dbc1b45516 created with lport=10000, rhost=127.0.0.1, rport=10001
+2026-02-05 22:47:17 INFO base_node.py:785 Starting new uBridge hypervisor 0.0.0.0:41181
+2026-02-05 22:47:17 INFO hypervisor.py:163 starting ubridge: ['/usr/sbin/ubridge', '-H', '0.0.0.0:41181']
+2026-02-05 22:47:17 INFO hypervisor.py:165 logging to /home/shripad/GNS3/projects/236c0f30-0b1f-4102-ac56-1ea5b6671bb2/project-files/dynamips/0bb69b8c-c97f-4627-82ed-d8100418d8d8/ubridge.log
+2026-02-05 22:47:17 INFO hypervisor.py:171 ubridge started PID=72677
+2026-02-05 22:47:17 INFO base_node.py:788 Hypervisor 0.0.0.0:41181 has successfully started
+2026-02-05 22:47:17 INFO ubridge_hypervisor.py:82 Connected to uBridge hypervisor on 127.0.0.1:41181 after 0.1010 seconds
+2026-02-05 22:47:17 INFO router.py:1404 Router "R1" [0bb69b8c-c97f-4627-82ed-d8100418d8d8]: NIO udp-f1109d8b-bfbd-49dd-a69a-50dbc1b45516 bound to port 0/0
+2026-02-05 22:47:17 INFO ethernet_switch.py:285 Ethernet switch "Switch1" [f6737aa4-0cb2-45db-896a-c0ce1dc9a0b4]: NIO udp-ad98a5c7-35d7-4408-9a87-6a7451c0e380 bound to port 0
+2026-02-05 22:47:17 INFO ethernet_switch.py:377 Ethernet switch "Switch1" [f6737aa4-0cb2-45db-896a-c0ce1dc9a0b4]: port 0 set as an access port in VLAN 1
+2026-02-05 22:47:17 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2026-02-05 22:47:17 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2026-02-05 22:47:29 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2026-02-05 22:47:29 INFO nio_udp.py:76 NIO UDP udp-1d396ff7-62e2-4587-b8f6-68b5dd81093f created with lport=10004, rhost=127.0.0.1, rport=10005
+2026-02-05 22:47:29 INFO router.py:1404 Router "R1" [0bb69b8c-c97f-4627-82ed-d8100418d8d8]: NIO udp-1d396ff7-62e2-4587-b8f6-68b5dd81093f bound to port 0/1
+2026-02-05 22:47:29 INFO ethernet_switch.py:285 Ethernet switch "Switch2" [cbd13e01-a5a1-4dbd-b017-0cc819f1d397]: NIO udp-885c2969-3460-45e0-9964-146efc01b5fd bound to port 0
+2026-02-05 22:47:29 INFO ethernet_switch.py:377 Ethernet switch "Switch2" [cbd13e01-a5a1-4dbd-b017-0cc819f1d397]: port 0 set as an access port in VLAN 1
+2026-02-05 22:47:29 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2026-02-05 22:47:29 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2026-02-05 22:47:33 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2026-02-05 22:47:33 INFO ethernet_switch.py:285 Ethernet switch "Switch1" [f6737aa4-0cb2-45db-896a-c0ce1dc9a0b4]: NIO udp-f7e3bfe6-2645-4c52-a778-4ca41f1e8523 bound to port 1
+2026-02-05 22:47:33 INFO ethernet_switch.py:377 Ethernet switch "Switch1" [f6737aa4-0cb2-45db-896a-c0ce1dc9a0b4]: port 1 set as an access port in VLAN 1
+2026-02-05 22:47:33 INFO vpcs_vm.py:393 VPCS "PC1" [a2a711e1-7a5d-4cf1-bf21-48beefb1cd5e]: NIO UDP added to port 0
+2026-02-05 22:47:33 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2026-02-05 22:47:33 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2026-02-05 22:47:38 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2026-02-05 22:47:38 INFO ethernet_switch.py:285 Ethernet switch "Switch1" [f6737aa4-0cb2-45db-896a-c0ce1dc9a0b4]: NIO udp-580ab586-dc52-4b20-87e1-aef37eae2395 bound to port 2
+2026-02-05 22:47:38 INFO ethernet_switch.py:377 Ethernet switch "Switch1" [f6737aa4-0cb2-45db-896a-c0ce1dc9a0b4]: port 2 set as an access port in VLAN 1
+2026-02-05 22:47:38 INFO vpcs_vm.py:393 VPCS "PC2" [6f339fdb-b4f6-4406-8e0e-c122cd4f17bb]: NIO UDP added to port 0
+2026-02-05 22:47:38 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2026-02-05 22:47:38 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2026-02-05 22:47:43 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2026-02-05 22:47:43 INFO ethernet_switch.py:285 Ethernet switch "Switch2" [cbd13e01-a5a1-4dbd-b017-0cc819f1d397]: NIO udp-5422b230-aa08-4bd0-8935-d0580ffb89b9 bound to port 1
+2026-02-05 22:47:43 INFO ethernet_switch.py:377 Ethernet switch "Switch2" [cbd13e01-a5a1-4dbd-b017-0cc819f1d397]: port 1 set as an access port in VLAN 1
+2026-02-05 22:47:43 INFO vpcs_vm.py:393 VPCS "PC3" [3c10254b-8104-4a53-958d-862d5127e22b]: NIO UDP added to port 0
+2026-02-05 22:47:43 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2026-02-05 22:47:43 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2026-02-05 22:47:47 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2026-02-05 22:47:47 INFO ethernet_switch.py:285 Ethernet switch "Switch2" [cbd13e01-a5a1-4dbd-b017-0cc819f1d397]: NIO udp-410e75a8-0a2f-49c2-bf22-3ccbac517a82 bound to port 2
+2026-02-05 22:47:47 INFO ethernet_switch.py:377 Ethernet switch "Switch2" [cbd13e01-a5a1-4dbd-b017-0cc819f1d397]: port 2 set as an access port in VLAN 1
+2026-02-05 22:47:47 INFO vpcs_vm.py:393 VPCS "PC4" [0c163329-ba44-40a4-99b9-0f6417af805b]: NIO UDP added to port 0
+2026-02-05 22:47:47 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2026-02-05 22:47:47 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2026-02-05 22:47:58 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2026-02-05 22:47:58 INFO router.py:535 Router "R1" [0bb69b8c-c97f-4627-82ed-d8100418d8d8]: has a new IOS image set: "/home/shripad/GNS3/images/IOS/c2691-entservicesk9-mz.124-13b_2.image"
+2026-02-05 22:48:32 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2026-02-05 22:48:32 ERROR __init__.py:133 Compute node error: No path to a VPCS executable has been set
+2026-02-05 22:48:32 ERROR __init__.py:133 Compute node error: No path to a VPCS executable has been set
+2026-02-05 22:48:32 ERROR __init__.py:133 Compute node error: No path to a VPCS executable has been set
+2026-02-05 22:48:32 INFO router.py:127 Creating a new ghost IOS instance
+2026-02-05 22:48:32 INFO router.py:535 Router "Ghost" [266a1668-f459-44d1-99f9-c651ef9a22be]: has a new IOS image set: "/home/shripad/GNS3/images/IOS/c2691-entservicesk9-mz.124-13b_2.image"
+2026-02-05 22:48:32 INFO router.py:882 Router "Ghost" [266a1668-f459-44d1-99f9-c651ef9a22be]: ghost status set to 1
+2026-02-05 22:48:32 INFO router.py:839 Router "Ghost" [266a1668-f459-44d1-99f9-c651ef9a22be]: ghost file set to "/home/shripad/GNS3/projects/236c0f30-0b1f-4102-ac56-1ea5b6671bb2/project-files/dynamips/c2691-entservicesk9-mz.124-13b_2.image-192.ghost"
+2026-02-05 22:48:32 INFO router.py:564 Router "Ghost" [266a1668-f459-44d1-99f9-c651ef9a22be]: RAM updated from 128MB to 192MB
+2026-02-05 22:48:32 ERROR __init__.py:133 Compute node error: No path to a VPCS executable has been set
+2026-02-05 22:48:32 INFO router.py:325 router "Ghost" [266a1668-f459-44d1-99f9-c651ef9a22be] has been started
+2026-02-05 22:48:32 INFO router.py:360 Router "Ghost" [266a1668-f459-44d1-99f9-c651ef9a22be] has been stopped
+2026-02-05 22:48:32 INFO router.py:1790 Router "Ghost" [266a1668-f459-44d1-99f9-c651ef9a22be] has been deleted (including associated files)
+2026-02-05 22:48:32 INFO router.py:882 Router "R1" [0bb69b8c-c97f-4627-82ed-d8100418d8d8]: ghost status set to 2
+2026-02-05 22:48:32 INFO router.py:839 Router "R1" [0bb69b8c-c97f-4627-82ed-d8100418d8d8]: ghost file set to "/home/shripad/GNS3/projects/236c0f30-0b1f-4102-ac56-1ea5b6671bb2/project-files/dynamips/c2691-entservicesk9-mz.124-13b_2.image-192.ghost"
+2026-02-05 22:48:32 INFO router.py:325 router "R1" [0bb69b8c-c97f-4627-82ed-d8100418d8d8] has been started
+2026-02-05 22:48:32 ERROR server.py:180 Controller received error from compute for request 'http://127.0.0.1:3080/v3/compute/projects/236c0f30-0b1f-4102-ac56-1ea5b6671bb2/vpcs/nodes/0c163329-ba44-40a4-99b9-0f6417af805b/start': No path to a VPCS executable has been set
+2026-02-05 22:48:56 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2026-02-05 22:48:56 ERROR __init__.py:133 Compute node error: No path to a VPCS executable has been set
+2026-02-05 22:48:56 ERROR server.py:180 Controller received error from compute for request 'http://127.0.0.1:3080/v3/compute/projects/236c0f30-0b1f-4102-ac56-1ea5b6671bb2/vpcs/nodes/0c163329-ba44-40a4-99b9-0f6417af805b/start': No path to a VPCS executable has been set
+2026-02-05 22:49:02 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2026-02-05 22:49:04 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2026-02-05 22:49:16 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2026-02-05 22:49:36 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2026-02-05 22:49:36 INFO router.py:360 Router "R1" [0bb69b8c-c97f-4627-82ed-d8100418d8d8] has been stopped
+2026-02-05 22:49:36 INFO router.py:1751 saving startup-config to /home/shripad/GNS3/projects/236c0f30-0b1f-4102-ac56-1ea5b6671bb2/project-files/dynamips/0bb69b8c-c97f-4627-82ed-d8100418d8d8/configs/i1_startup-config.cfg
+2026-02-05 22:49:36 ERROR __init__.py:133 Compute node error: No path to a VPCS executable has been set
+2026-02-05 22:49:36 ERROR __init__.py:133 Compute node error: No path to a VPCS executable has been set
+2026-02-05 22:49:36 ERROR __init__.py:133 Compute node error: No path to a VPCS executable has been set
+2026-02-05 22:49:36 INFO router.py:882 Router "R1" [0bb69b8c-c97f-4627-82ed-d8100418d8d8]: ghost status set to 2
+2026-02-05 22:49:36 INFO router.py:839 Router "R1" [0bb69b8c-c97f-4627-82ed-d8100418d8d8]: ghost file set to "/home/shripad/GNS3/projects/236c0f30-0b1f-4102-ac56-1ea5b6671bb2/project-files/dynamips/c2691-entservicesk9-mz.124-13b_2.image-192.ghost"
+2026-02-05 22:49:36 ERROR __init__.py:133 Compute node error: No path to a VPCS executable has been set
+2026-02-05 22:49:36 INFO router.py:325 router "R1" [0bb69b8c-c97f-4627-82ed-d8100418d8d8] has been started
+2026-02-05 22:49:36 ERROR server.py:180 Controller received error from compute for request 'http://127.0.0.1:3080/v3/compute/projects/236c0f30-0b1f-4102-ac56-1ea5b6671bb2/vpcs/nodes/0c163329-ba44-40a4-99b9-0f6417af805b/start': No path to a VPCS executable has been set
+2026-02-05 22:51:34 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2026-02-05 22:51:34 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2026-02-05 22:51:57 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2026-02-05 22:51:57 INFO router.py:360 Router "R1" [0bb69b8c-c97f-4627-82ed-d8100418d8d8] has been stopped
+2026-02-05 22:51:57 INFO router.py:1751 saving startup-config to /home/shripad/GNS3/projects/236c0f30-0b1f-4102-ac56-1ea5b6671bb2/project-files/dynamips/0bb69b8c-c97f-4627-82ed-d8100418d8d8/configs/i1_startup-config.cfg
+2026-02-05 22:51:57 INFO base_node.py:942 VPCS: 'PC2' [6f339fdb-b4f6-4406-8e0e-c122cd4f17bb]:local UDP tunnel created between port 10016 and 10017
+2026-02-05 22:51:57 INFO vpcs_vm.py:230 Starting VPCS: ['/usr/sbin/vpcs', '-p', '5003', '-m', '1', '-i', '1', '-F', '-R', '-s', '10016', '-c', '10017', '-t', '127.0.0.1', 'startup.vpc']
+2026-02-05 22:51:57 INFO vpcs_vm.py:232 Logging to /home/shripad/GNS3/projects/236c0f30-0b1f-4102-ac56-1ea5b6671bb2/project-files/vpcs/6f339fdb-b4f6-4406-8e0e-c122cd4f17bb/vpcs.log
+2026-02-05 22:51:57 INFO base_node.py:942 VPCS: 'PC1' [a2a711e1-7a5d-4cf1-bf21-48beefb1cd5e]:local UDP tunnel created between port 10018 and 10019
+2026-02-05 22:51:57 INFO vpcs_vm.py:230 Starting VPCS: ['/usr/sbin/vpcs', '-p', '5001', '-m', '0', '-i', '1', '-F', '-R', '-s', '10018', '-c', '10019', '-t', '127.0.0.1', 'startup.vpc']
+2026-02-05 22:51:57 INFO vpcs_vm.py:232 Logging to /home/shripad/GNS3/projects/236c0f30-0b1f-4102-ac56-1ea5b6671bb2/project-files/vpcs/a2a711e1-7a5d-4cf1-bf21-48beefb1cd5e/vpcs.log
+2026-02-05 22:51:57 INFO base_node.py:942 VPCS: 'PC3' [3c10254b-8104-4a53-958d-862d5127e22b]:local UDP tunnel created between port 10020 and 10021
+2026-02-05 22:51:57 INFO vpcs_vm.py:230 Starting VPCS: ['/usr/sbin/vpcs', '-p', '5005', '-m', '2', '-i', '1', '-F', '-R', '-s', '10020', '-c', '10021', '-t', '127.0.0.1', 'startup.vpc']
+2026-02-05 22:51:57 INFO vpcs_vm.py:232 Logging to /home/shripad/GNS3/projects/236c0f30-0b1f-4102-ac56-1ea5b6671bb2/project-files/vpcs/3c10254b-8104-4a53-958d-862d5127e22b/vpcs.log
+2026-02-05 22:51:57 INFO base_node.py:785 Starting new uBridge hypervisor 0.0.0.0:36593
+2026-02-05 22:51:57 INFO base_node.py:785 Starting new uBridge hypervisor 0.0.0.0:42699
+2026-02-05 22:51:57 INFO base_node.py:785 Starting new uBridge hypervisor 0.0.0.0:39417
+2026-02-05 22:51:57 INFO hypervisor.py:163 starting ubridge: ['/usr/sbin/ubridge', '-H', '0.0.0.0:36593']
+2026-02-05 22:51:57 INFO hypervisor.py:165 logging to /home/shripad/GNS3/projects/236c0f30-0b1f-4102-ac56-1ea5b6671bb2/project-files/vpcs/6f339fdb-b4f6-4406-8e0e-c122cd4f17bb/ubridge.log
+2026-02-05 22:51:57 INFO hypervisor.py:171 ubridge started PID=81311
+2026-02-05 22:51:57 INFO base_node.py:788 Hypervisor 0.0.0.0:36593 has successfully started
+2026-02-05 22:51:57 INFO hypervisor.py:163 starting ubridge: ['/usr/sbin/ubridge', '-H', '0.0.0.0:42699']
+2026-02-05 22:51:57 INFO hypervisor.py:165 logging to /home/shripad/GNS3/projects/236c0f30-0b1f-4102-ac56-1ea5b6671bb2/project-files/vpcs/a2a711e1-7a5d-4cf1-bf21-48beefb1cd5e/ubridge.log
+2026-02-05 22:51:57 INFO hypervisor.py:163 starting ubridge: ['/usr/sbin/ubridge', '-H', '0.0.0.0:39417']
+2026-02-05 22:51:57 INFO hypervisor.py:165 logging to /home/shripad/GNS3/projects/236c0f30-0b1f-4102-ac56-1ea5b6671bb2/project-files/vpcs/3c10254b-8104-4a53-958d-862d5127e22b/ubridge.log
+2026-02-05 22:51:57 INFO hypervisor.py:171 ubridge started PID=81312
+2026-02-05 22:51:57 INFO base_node.py:788 Hypervisor 0.0.0.0:42699 has successfully started
+2026-02-05 22:51:57 INFO hypervisor.py:171 ubridge started PID=81313
+2026-02-05 22:51:57 INFO base_node.py:788 Hypervisor 0.0.0.0:39417 has successfully started
+2026-02-05 22:51:57 INFO ubridge_hypervisor.py:82 Connected to uBridge hypervisor on 127.0.0.1:36593 after 0.1013 seconds
+2026-02-05 22:51:57 INFO ubridge_hypervisor.py:82 Connected to uBridge hypervisor on 127.0.0.1:42699 after 0.1008 seconds
+2026-02-05 22:51:57 INFO ubridge_hypervisor.py:82 Connected to uBridge hypervisor on 127.0.0.1:39417 after 0.1009 seconds
+2026-02-05 22:51:57 INFO base_node.py:448 New Telnet proxy server for console started (internal port = 5003, external port = 5002)
+2026-02-05 22:51:57 INFO vpcs_vm.py:249 VPCS instance PC2 started PID=81293
+2026-02-05 22:51:57 INFO base_node.py:448 New Telnet proxy server for console started (internal port = 5005, external port = 5004)
+2026-02-05 22:51:57 INFO vpcs_vm.py:249 VPCS instance PC3 started PID=81297
+2026-02-05 22:51:57 INFO base_node.py:448 New Telnet proxy server for console started (internal port = 5001, external port = 5000)
+2026-02-05 22:51:57 INFO vpcs_vm.py:249 VPCS instance PC1 started PID=81295
+2026-02-05 22:51:57 INFO router.py:882 Router "R1" [0bb69b8c-c97f-4627-82ed-d8100418d8d8]: ghost status set to 2
+2026-02-05 22:51:57 INFO router.py:839 Router "R1" [0bb69b8c-c97f-4627-82ed-d8100418d8d8]: ghost file set to "/home/shripad/GNS3/projects/236c0f30-0b1f-4102-ac56-1ea5b6671bb2/project-files/dynamips/c2691-entservicesk9-mz.124-13b_2.image-192.ghost"
+2026-02-05 22:51:57 INFO base_node.py:942 VPCS: 'PC4' [0c163329-ba44-40a4-99b9-0f6417af805b]:local UDP tunnel created between port 10022 and 10023
+2026-02-05 22:51:57 INFO vpcs_vm.py:230 Starting VPCS: ['/usr/sbin/vpcs', '-p', '5010', '-m', '3', '-i', '1', '-F', '-R', '-s', '10022', '-c', '10023', '-t', '127.0.0.1', 'startup.vpc']
+2026-02-05 22:51:57 INFO vpcs_vm.py:232 Logging to /home/shripad/GNS3/projects/236c0f30-0b1f-4102-ac56-1ea5b6671bb2/project-files/vpcs/0c163329-ba44-40a4-99b9-0f6417af805b/vpcs.log
+2026-02-05 22:51:57 INFO base_node.py:785 Starting new uBridge hypervisor 0.0.0.0:34861
+2026-02-05 22:51:57 INFO hypervisor.py:163 starting ubridge: ['/usr/sbin/ubridge', '-H', '0.0.0.0:34861']
+2026-02-05 22:51:57 INFO hypervisor.py:165 logging to /home/shripad/GNS3/projects/236c0f30-0b1f-4102-ac56-1ea5b6671bb2/project-files/vpcs/0c163329-ba44-40a4-99b9-0f6417af805b/ubridge.log
+2026-02-05 22:51:57 INFO hypervisor.py:171 ubridge started PID=81341
+2026-02-05 22:51:57 INFO base_node.py:788 Hypervisor 0.0.0.0:34861 has successfully started
+2026-02-05 22:51:57 INFO ubridge_hypervisor.py:82 Connected to uBridge hypervisor on 127.0.0.1:34861 after 0.1015 seconds
+2026-02-05 22:51:57 INFO base_node.py:448 New Telnet proxy server for console started (internal port = 5010, external port = 5009)
+2026-02-05 22:51:57 INFO vpcs_vm.py:249 VPCS instance PC4 started PID=81335
+2026-02-05 22:51:57 INFO router.py:325 router "R1" [0bb69b8c-c97f-4627-82ed-d8100418d8d8] has been started
+2026-02-05 23:06:19 ERROR authentication.py:76 A JWT secret key must be configured to secure the server, using an unsecured default key!
+2026-02-05 23:38:25 INFO server.py:263 connection closed
+2026-02-05 23:38:25 INFO server.py:263 connection closed
+2026-02-05 23:38:25 INFO projects.py:304 Client has disconnected from notification stream for project ID '236c0f30-0b1f-4102-ac56-1ea5b6671bb2' (WebSocket method)
+2026-02-05 23:38:28 INFO controller.py:221 Client 127.0.0.1:53750 has disconnected from controller WebSocket
+2026-02-05 23:38:30 INFO projects.py:313 Project '236c0f30-0b1f-4102-ac56-1ea5b6671bb2' is automatically closing due to no client listening
+2026-02-05 23:38:30 INFO base_node.py:801 Stopping uBridge hypervisor 0.0.0.0:36593
+2026-02-05 23:38:30 INFO hypervisor.py:200 Stopping uBridge process PID=81311
+2026-02-05 23:38:30 INFO base_node.py:801 Stopping uBridge hypervisor 0.0.0.0:42699
+2026-02-05 23:38:30 INFO hypervisor.py:200 Stopping uBridge process PID=81312
+2026-02-05 23:38:30 INFO base_node.py:801 Stopping uBridge hypervisor 0.0.0.0:39417
+2026-02-05 23:38:30 INFO hypervisor.py:200 Stopping uBridge process PID=81313
+2026-02-05 23:38:30 INFO vpcs_vm.py:314 Stopping VPCS instance PC1 PID=81295
+2026-02-05 23:38:30 INFO vpcs_vm.py:314 Stopping VPCS instance PC2 PID=81293
+2026-02-05 23:38:30 INFO vpcs_vm.py:314 Stopping VPCS instance PC3 PID=81297
+2026-02-05 23:38:30 INFO vpcs_vm.py:265 VPCS process has stopped, return code: 0
+2026-02-05 23:38:30 INFO vpcs_vm.py:265 VPCS process has stopped, return code: 0
+2026-02-05 23:38:30 INFO vpcs_vm.py:265 VPCS process has stopped, return code: 0
+2026-02-05 23:38:30 INFO base_node.py:801 Stopping uBridge hypervisor 0.0.0.0:34861
+2026-02-05 23:38:30 INFO hypervisor.py:200 Stopping uBridge process PID=81341
+2026-02-05 23:38:30 INFO router.py:360 Router "R1" [0bb69b8c-c97f-4627-82ed-d8100418d8d8] has been stopped
+2026-02-05 23:38:30 INFO router.py:1751 saving startup-config to /home/shripad/GNS3/projects/236c0f30-0b1f-4102-ac56-1ea5b6671bb2/project-files/dynamips/0bb69b8c-c97f-4627-82ed-d8100418d8d8/configs/i1_startup-config.cfg
+2026-02-05 23:38:30 INFO vpcs_vm.py:314 Stopping VPCS instance PC4 PID=81335
+2026-02-05 23:38:30 INFO vpcs_vm.py:265 VPCS process has stopped, return code: 0
+2026-02-05 23:38:30 INFO base_node.py:370 VPCS: 'PC1' [a2a711e1-7a5d-4cf1-bf21-48beefb1cd5e]: is closing
+2026-02-05 23:38:30 INFO base_node.py:370 VPCS: 'PC2' [6f339fdb-b4f6-4406-8e0e-c122cd4f17bb]: is closing
+2026-02-05 23:38:30 INFO base_node.py:370 VPCS: 'PC4' [0c163329-ba44-40a4-99b9-0f6417af805b]: is closing
+2026-02-05 23:38:30 INFO base_node.py:370 VPCS: 'PC3' [3c10254b-8104-4a53-958d-862d5127e22b]: is closing
+2026-02-05 23:38:30 INFO base_node.py:370 Dynamips: 'R1' [0bb69b8c-c97f-4627-82ed-d8100418d8d8]: is closing
+2026-02-05 23:38:30 INFO base_node.py:801 Stopping uBridge hypervisor 0.0.0.0:41181
+2026-02-05 23:38:30 INFO hypervisor.py:200 Stopping uBridge process PID=72677
+2026-02-05 23:38:30 INFO ethernet_switch.py:262 Ethernet switch "Switch1" [f6737aa4-0cb2-45db-896a-c0ce1dc9a0b4] has been deleted
+2026-02-05 23:38:30 INFO hypervisor.py:142 Stopping Dynamips process PID=72611
+2026-02-05 23:38:30 INFO ethernet_switch.py:262 Ethernet switch "Switch2" [cbd13e01-a5a1-4dbd-b017-0cc819f1d397] has been deleted
+2026-02-05 23:38:30 INFO hypervisor.py:142 Stopping Dynamips process PID=72639
+2026-02-05 23:38:31 INFO router.py:1751 saving startup-config to /home/shripad/GNS3/projects/236c0f30-0b1f-4102-ac56-1ea5b6671bb2/project-files/dynamips/0bb69b8c-c97f-4627-82ed-d8100418d8d8/configs/i1_startup-config.cfg
+2026-02-05 23:38:31 INFO hypervisor.py:142 Stopping Dynamips process PID=72583
+2026-02-05 23:38:31 INFO project.py:352 Project 236c0f30-0b1f-4102-ac56-1ea5b6671bb2 with path '/home/shripad/GNS3/projects/236c0f30-0b1f-4102-ac56-1ea5b6671bb2' closed
+2026-02-05 23:38:36 INFO server.py:264 Shutting down
+2026-02-05 23:38:36 INFO compute.py:479 Connection closed to compute 'local' WebSocket 'http://127.0.0.1:3080/v3/compute/notifications/ws'
+2026-02-05 23:38:36 INFO server.py:263 connection closed
+2026-02-05 23:38:36 INFO server.py:306 Waiting for background tasks to complete. (CTRL+C to force quit)
+2026-02-05 23:38:36 INFO tasks.py:238 Stopping monitoring for new images in '/home/shripad/GNS3/images'
+2026-02-05 23:38:40 INFO notifications.py:50 Client 127.0.0.1:53764 has disconnected from compute WebSocket
+2026-02-05 23:38:40 INFO on.py:67 Waiting for application shutdown.
+2026-02-05 23:38:40 INFO __init__.py:181 Controller is stopping
+2026-02-05 23:38:40 INFO tasks.py:106 Disconnected from database
+2026-02-05 23:38:40 INFO on.py:76 Application shutdown complete.
+2026-02-05 23:38:40 INFO server.py:94 Finished server process [72503]
+2026-02-05 23:38:40 INFO server.py:329 Remove PID file /home/shripad/.config/GNS3/3.0/gns3_server.pid

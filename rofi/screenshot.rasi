@@ -1,0 +1,35 @@
+/* screenshot.rasi - minimal, modern Rofi theme */
+
+* {
+    font: "JetBrains Mono 12";
+    background-color: #1d1f21;
+    color: #c5c8c6;
+    border: 2px solid #282a2e;
+    border-radius: 8px;
+    padding: 8px 10px;
+}
+
+window {
+    width: 300px;
+    location: center;
+    anchor: middle;
+}
+
+listview {
+    lines: 3;
+    fixed-height: 1;
+}
+
+element {
+    padding: 6px 10px;
+}
+
+element selected {
+    background-color: #373b41;
+    color: #ffffff;
+}
+
+textbox {
+    padding: 6px 10px;
+}
+

@@ -1,0 +1,5 @@
+2026-02-04 21:50:39.935 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2026-02-04 21:50:40.123 [info] Started local extension host with pid 41576.
+2026-02-04 21:50:40.171 [info] Started initializing default profile extensions in extensions installation folder. file:///home/shripad/.vscode-oss/extensions
+2026-02-04 21:50:40.436 [info] Completed initializing default profile extensions in extensions installation folder. file:///home/shripad/.vscode-oss/extensions
+2026-02-04 21:50:43.174 [info] [perf] Render performance baseline is 27ms

@@ -1,0 +1,5 @@
+2026/02/04-22:07:38.138 125f6 Creating DB /home/shripad/.config/MongoDB Compass/Local Storage/leveldb since it was missing.
+2026/02/04-22:07:38.141 125f6 Reusing MANIFEST /home/shripad/.config/MongoDB Compass/Local Storage/leveldb/MANIFEST-000001
+2026/02/04-22:42:38.713 125f6 Level-0 table #5: started
+2026/02/04-22:42:38.730 125f6 Level-0 table #5: 15996 bytes OK
+2026/02/04-22:42:38.732 125f6 Delete type=0 #3

@@ -1,0 +1,16 @@
+{
+  "_id": "72689373-935c-4d75-a857-07bcf0b3fa8a",
+  "connectionInfo": {
+    "id": "72689373-935c-4d75-a857-07bcf0b3fa8a",
+    "connectionOptions": {
+      "connectionString": "mongodb://localhost:27017/",
+      "oidc": {}
+    },
+    "savedConnectionType": "recent",
+    "favorite": {
+      "name": ""
+    },
+    "lastUsed": "2026-02-04T16:37:51.089Z"
+  },
+  "version": 1
+}

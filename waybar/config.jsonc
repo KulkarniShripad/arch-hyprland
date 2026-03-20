@@ -1,0 +1,100 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 36,
+
+  "margin-top": 6,
+  "margin-left": 10,
+  "margin-right": 10,
+
+  "modules-left": [
+    "custom/launcher",
+    "custom/cpu_ram"
+  ],
+
+  "modules-center": [
+    "hyprland/workspaces"
+  ],
+
+  "modules-right": [
+    "tray",
+    "clock",
+    "battery",
+    "custom/power"
+  ],
+
+  "custom/launcher": {
+    "format": " ",
+    "tooltip": false,
+    "on-click": "rofi -show drun"
+  },
+
+  "clock": {
+  "format": "{:%I:%M %p | %d %b}",
+  "tooltip": false,
+  "on-click": "~/.config/waybar/scripts/calender.sh"
+},
+
+  "hyprland/workspaces": {
+    "format": "{name}",
+    "on-click": "activate",
+    "all-outputs": true
+  },
+
+  "pulseaudio": {
+    "format": "{icon} {volume}%",
+    "format-muted": "󰝟 muted",
+    "format-icons": {
+      "default": ["󰕿", "󰖀", "󰕾"]
+    },
+    "scroll-step": 5,
+    "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
+    "tooltip": false
+  },
+
+  "backlight": {
+    "device": "amdgpu_bl1",
+    "format": "󰃠 {percent}%",
+    "scroll-step": 5,
+    "tooltip": false
+  },
+
+  "network": {
+    "format-wifi": "  {essid}",
+    "format-ethernet": "󰈀  Wired",
+    "format-disconnected": "󰖪  Offline",
+    "tooltip": false
+  },
+
+  "battery": {
+  "states": {
+    "warning": 20,
+    "critical": 10
+  },
+  "format": "{icon} {capacity}%",
+  "format-charging": "󰂄 {capacity}%",
+  "format-icons": ["", "", "", "", ""]
+  },
+
+  "tray": {
+    "icon-size": 27,
+    "spacing": 8
+  },
+
+  "custom/power": {
+  "format": "⏻ ",
+  "tooltip": false,
+  "on-click": "~/.config/rofi/powermenu/type-4/powermenu.sh"
+},
+
+ "custom/cpu_ram": {
+  "exec": "~/.config/waybar/scripts/cpu_ram.sh",
+  "interval": 2,
+  "format": "{}",
+  "markup": "pango"
+}
+
+
+
+}
+

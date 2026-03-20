@@ -1,0 +1,12 @@
+configuration {
+    show-icons: true;
+    drun-display-format: "{name}";
+}
+
+
+
+@theme "~/.config/rofi/launchers/type-3/style-1.rasi"
+/* 
+@theme "~/.config/rofi/launchers/type-3/style-1.rasi"
+*/
+
